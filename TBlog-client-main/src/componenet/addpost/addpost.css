@@ -1,0 +1,60 @@
+.CreatePost-body {
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .CreatePost-form-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+  }
+  
+  .CreatePost-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .CreatePost-form-container label {
+    margin-bottom: 5px;
+    font-size: 16px; /* Increase font size */
+  }
+  
+  .CreatePost-form-container input,
+  .CreatePost-form-container textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* Increase font size */
+    font-family: Arial, sans-serif; /* Apply Arial font */
+  }
+  
+  .CreatePost-form-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .CreatePost-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Align labels and input boxes */
+  .CreatePost-form-container label,
+  .CreatePost-form-container input,
+  .CreatePost-form-container textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+  }
+  
+  
